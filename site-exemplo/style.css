@@ -1,8 +1,50 @@
 body{
-    background-image:url("1.png");
+    margin-left: 600px ;
+    background-color:rgb(71, 72, 73);
     color: gold;
     
 }
-#teste{
-    margin-left:  100px;
+p{
+    position:relative;
+}
+#game{
+    padding: 50px;
+}
+#qd1{
+    height: 72px;    
+    width: 72px;
+    position: relative;
+    /*left: 300;*/
+    top: -189px;
+    margin-left: 112px ;
+    background-color: blue;
+    clip-path: circle(98.8% at 0 100%);
+    
+}
+#qd2{
+    height: 72px;
+    width: 72px;
+    position: relative;
+    top: -189px;
+    margin-left: 112px;    
+    background-color: yellow;    
+    clip-path: circle(98.8% at 0 0);
+}
+#qd3{
+    height: 72px;
+    width: 72px;
+    position: relative;
+    top: -333px;
+    margin-left: 40px;    
+    background-color: green;
+    clip-path: circle(98.8% at 100% 0);
+}
+#qd4{    
+    height: 72px;
+    width: 72px;
+    position: relative;
+    top: -333px;    
+    margin-left: 40px;
+    background-color:darkred;
+    clip-path: circle(98.8% at 100% 100%);
 }
