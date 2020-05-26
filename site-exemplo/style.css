@@ -10,16 +10,24 @@ p{
 #game{
     padding: 50px;
 }
+.colors:hover{
+    cursor: pointer;
+}
+
 #qd1{
     height: 72px;    
     width: 72px;
-    position: relative;
-    /*left: 300;*/
+    position: relative;    
     top: -189px;
     margin-left: 112px ;
     background-color: blue;
     clip-path: circle(98.8% at 0 100%);
-    
+           
+}
+#qd1:active{
+    background-color: #0099ff;
+    height: 72.2px;
+    width: 72.2px;    
 }
 #qd2{
     height: 72px;
@@ -27,8 +35,13 @@ p{
     position: relative;
     top: -189px;
     margin-left: 112px;    
-    background-color: yellow;    
+    background-color: rgb(156, 154, 3);    
     clip-path: circle(98.8% at 0 0);
+}
+#qd2:active{
+    background-color: #f3f394;
+    height: 72.2px;
+    width: 72.2px; 
 }
 #qd3{
     height: 72px;
@@ -39,6 +52,11 @@ p{
     background-color: green;
     clip-path: circle(98.8% at 100% 0);
 }
+#qd3:active{
+    background-color: lawngreen;
+    height: 72.2px;
+    width: 72.2px; 
+}
 #qd4{    
     height: 72px;
     width: 72px;
@@ -47,4 +65,9 @@ p{
     margin-left: 40px;
     background-color:darkred;
     clip-path: circle(98.8% at 100% 100%);
+}
+#qd4:active{
+    background-color: lightcoral;
+    height: 72.2px;
+    width: 72.2px; 
 }
